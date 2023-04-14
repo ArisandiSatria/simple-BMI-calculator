@@ -58,3 +58,11 @@ input {
 .warning {
   color: red;
 }
+
+.calculator form button:hover {
+  background-color: #574cd4;
+}
+
+.calculator form button:active {
+  transform: scale(.9);
+}

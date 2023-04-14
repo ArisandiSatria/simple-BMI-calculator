@@ -5,9 +5,7 @@ const submitButton = document.getElementById("submit");
 
 const submitResult = (event) => {
   event.preventDefault();
-  let calculateBmiResult = (weight.value / (height.value / 100) ** 2).toFixed(
-    1
-  );
+  let calculateBmiResult = weight.value / (height.value / 100) ** 2;
   let weightCategories;
 
   if (calculateBmiResult < 18.5) {
