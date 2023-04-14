@@ -1,11 +1,15 @@
 * {
   margin: 0;
   padding: 0;
+  color: #03071e;
 }
 
 section {
   margin: 6rem auto;
+  padding: 3rem;
   width: 30%;
+  border-radius: 8px;
+  background: linear-gradient(320deg, #D4EA62, #DCC24B, #E59935);
 }
 
 .title {
@@ -33,17 +37,18 @@ label {
 input {
   margin-top: 12px;
   padding: 8px 8px;
-  width: 100%;
+  width: 95%;
 }
 
 .calculator form button {
   margin: 1rem 0 2rem;
   padding: 8px 12px;
-  color: #fff;
-  background-color: #6558f5;
+  background-color: #ED711E;
   border: none;
+  color: #D4EA62;
   border-radius: 4px;
   cursor: pointer;
+  font-size: 16px;
 }
 
 .calculator form button:focus {
@@ -60,7 +65,7 @@ input {
 }
 
 .calculator form button:hover {
-  background-color: #574cd4;
+  background-color: #c15d1a;
 }
 
 .calculator form button:active {
